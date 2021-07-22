@@ -1,0 +1,53 @@
+{
+    "datasource.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "C777F06B-202E-4480-B475-FA416154D458"
+        }
+    ],
+    "datasource.connections": [
+        {
+            "options": {
+                "connectionName": "DPAL Production",
+                "server": "reonomy.database.windows.net",
+                "database": "DPAL",
+                "authenticationType": "AzureMFA",
+                "user": "Brett Szyjka - BSzyjka@meridiancapital.com",
+                "password": "",
+                "connectTimeout": 30,
+                "applicationName": "azdata",
+                "azureTenantId": "5ed836a5-ea37-4515-87e7-5e2311ac6773",
+                "azureAccount": "6fe62ddf-b59f-427a-84e4-b9258ab7fb3f",
+                "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+                "databaseDisplayName": "DPAL"
+            },
+            "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "232daf9c-9d59-4f8e-bde2-3ee5bf2dd41e"
+        },
+        {
+            "options": {
+                "connectionName": "Salesforce Repl Production",
+                "server": "reonomy.database.windows.net",
+                "database": "Salesforce_Replication_Repo",
+                "authenticationType": "AzureMFA",
+                "user": "Brett Szyjka - BSzyjka@meridiancapital.com",
+                "password": "",
+                "connectTimeout": 30,
+                "applicationName": "azdata",
+                "azureTenantId": "5ed836a5-ea37-4515-87e7-5e2311ac6773",
+                "azureAccount": "6fe62ddf-b59f-427a-84e4-b9258ab7fb3f",
+                "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+                "databaseDisplayName": "Salesforce_Replication_Repo"
+            },
+            "groupId": "C777F06B-202E-4480-B475-FA416154D458",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "164bb50a-7e06-483a-802c-edf7fc48a142"
+        }
+    ],
+    "workbench.enablePreviewFeatures": true,
+    "workbench.startupEditor": "welcomePage",
+    "editor.acceptSuggestionOnCommitCharacter": false
+}
